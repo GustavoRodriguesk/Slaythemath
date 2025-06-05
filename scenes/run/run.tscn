@@ -32,32 +32,32 @@ alignment = 1
 [node name="MapButton" type="Button" parent="DebugButtons"]
 unique_name_in_owner = true
 layout_mode = 2
-text = "Map"
+text = "Mapa                                                                                         "
 
 [node name="BattleButton" type="Button" parent="DebugButtons"]
 unique_name_in_owner = true
 layout_mode = 2
-text = "Battle"
+text = "Batalha"
 
 [node name="ShopButton" type="Button" parent="DebugButtons"]
 unique_name_in_owner = true
 layout_mode = 2
-text = "Shop"
+text = "Loja"
 
 [node name="TreasureButton" type="Button" parent="DebugButtons"]
 unique_name_in_owner = true
 layout_mode = 2
-text = "Treasure"
+text = "Saque"
 
 [node name="RewardsButton" type="Button" parent="DebugButtons"]
 unique_name_in_owner = true
 layout_mode = 2
-text = "Rewards"
+text = "Recompensas"
 
 [node name="CampfireButton" type="Button" parent="DebugButtons"]
 unique_name_in_owner = true
 layout_mode = 2
-text = "Campfire"
+text = "Fogueira"
 
 [node name="TopBar" type="CanvasLayer" parent="."]
 layer = 3

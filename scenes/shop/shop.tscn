@@ -109,7 +109,7 @@ stretch_mode = 5
 [node name="ShopkeeperAnimation" type="AnimationPlayer" parent="DecorationLayer"]
 unique_name_in_owner = true
 libraries = {
-"": SubResource("AnimationLibrary_c4845")
+&"": SubResource("AnimationLibrary_c4845")
 }
 
 [node name="BlinkTimer" type="Timer" parent="DecorationLayer"]
@@ -131,7 +131,7 @@ offset_right = 67.0
 offset_bottom = -37.0
 grow_horizontal = 2
 grow_vertical = 2
-text = "Shop"
+text = "Loja"
 label_settings = SubResource("LabelSettings_cywyj")
 horizontal_alignment = 1
 vertical_alignment = 1
@@ -148,7 +148,7 @@ offset_right = -58.0
 offset_bottom = -20.0
 grow_horizontal = 2
 grow_vertical = 2
-text = "Leave"
+text = "Sair"
 
 [node name="ShopContent" type="VBoxContainer" parent="UILayer"]
 anchors_preset = 8

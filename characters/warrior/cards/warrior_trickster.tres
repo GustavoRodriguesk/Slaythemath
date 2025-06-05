@@ -13,5 +13,5 @@ target = 0
 cost = 0
 exhausts = false
 icon = ExtResource("1_huvsc")
-tooltip_text = "[center]Soma [color=\"0044ff\"]%s[/color] de escudo. Descarta 1 carta.[/center]"
+tooltip_text = "[center]Soma [color=\"0044ff\"]%s[/color] de escudo. Saque 1 carta.[/center]"
 sound = ExtResource("2_bd85j")

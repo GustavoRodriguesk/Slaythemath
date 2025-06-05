@@ -12,4 +12,4 @@ can_expire = false
 duration = 0
 stacks = 0
 icon = ExtResource("1_hj76v")
-tooltip = "Anabolizante: No começo do turno ganha 2 de musculo"
+tooltip = "Anabolizante: No inicio do turno ganha 2 de musculo"

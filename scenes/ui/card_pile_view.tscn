@@ -46,7 +46,7 @@ theme_override_constants/separation = 10
 [node name="Title" type="Label" parent="MarginContainer/VBoxContainer"]
 unique_name_in_owner = true
 layout_mode = 2
-text = "Discard Pile"
+text = "Pilha de descarte"
 label_settings = SubResource("LabelSettings_tpixj")
 horizontal_alignment = 1
 
@@ -149,7 +149,7 @@ offset_top = 7.0
 offset_right = -10.0
 offset_bottom = 21.0
 grow_horizontal = 0
-text = "Back"
+text = "Voltar"
 
 [node name="CardTooltipPopup" parent="." instance=ExtResource("3_0v1cn")]
 unique_name_in_owner = true

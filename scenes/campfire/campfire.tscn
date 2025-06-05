@@ -151,9 +151,9 @@ texture = SubResource("GradientTexture2D_6orn2")
 [node name="GPUParticles2D" type="GPUParticles2D" parent="ParticlesLayer"]
 position = Vector2(90, 100)
 amount = 128
-process_material = SubResource("ParticleProcessMaterial_1jtqt")
 texture = ExtResource("2_ykw02")
 lifetime = 1.5
+process_material = SubResource("ParticleProcessMaterial_1jtqt")
 
 [node name="UILayer" type="CanvasLayer" parent="."]
 
@@ -172,7 +172,7 @@ grow_vertical = 2
 
 [node name="Title" type="Label" parent="UILayer/UI"]
 layout_mode = 2
-text = "Campfire"
+text = "Fogueira"
 label_settings = SubResource("LabelSettings_k52g7")
 horizontal_alignment = 1
 
@@ -184,7 +184,7 @@ unique_name_in_owner = true
 custom_minimum_size = Vector2(40, 14)
 layout_mode = 2
 size_flags_horizontal = 4
-text = "Rest"
+text = "Descançar "
 
 [node name="Description" type="Label" parent="UILayer/UI"]
 layout_mode = 2
@@ -193,7 +193,7 @@ horizontal_alignment = 1
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
 libraries = {
-"": SubResource("AnimationLibrary_ikhwv")
+&"": SubResource("AnimationLibrary_ikhwv")
 }
 
 [connection signal="pressed" from="UILayer/UI/RestButton" to="." method="_on_rest_button_pressed"]
