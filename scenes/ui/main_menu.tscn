@@ -53,8 +53,7 @@ offset_right = 105.0
 offset_bottom = -13.0
 grow_horizontal = 2
 grow_vertical = 2
-text = "My Awesome
-Roguelike Deckbuilder"
+text = "Slay The Math"
 label_settings = SubResource("LabelSettings_rnxpd")
 horizontal_alignment = 1
 vertical_alignment = 1
@@ -83,12 +82,12 @@ text = "Continue"
 [node name="NewRun" type="Button" parent="VBoxContainer"]
 custom_minimum_size = Vector2(0, 14)
 layout_mode = 2
-text = "New Run"
+text = "Nova rodada"
 
 [node name="Exit" type="Button" parent="VBoxContainer"]
 custom_minimum_size = Vector2(0, 14)
 layout_mode = 2
-text = "Exit"
+text = "Sair"
 
 [node name="Wizard" type="Sprite2D" parent="."]
 position = Vector2(20, 105)

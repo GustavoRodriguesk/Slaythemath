@@ -12,4 +12,3 @@ func perform_action() -> void:
 	SFXPlayer.play(sound)
 
 	Events.enemy_action_completed.emit(enemy)
-

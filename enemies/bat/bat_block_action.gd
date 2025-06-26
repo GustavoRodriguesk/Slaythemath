@@ -1,6 +1,6 @@
 extends EnemyAction
 
-@export var block := 4
+@export var block := 3
 
 
 func perform_action() -> void:
@@ -16,4 +16,3 @@ func perform_action() -> void:
 		func():
 			Events.enemy_action_completed.emit(enemy)
 	)
-

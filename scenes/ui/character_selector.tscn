@@ -144,13 +144,13 @@ texture = ExtResource("3_pty20")
 expand_mode = 1
 stretch_mode = 5
 
-[node name="WizardButton" type="Button" parent="CharacterButtons"]
+[node name="WizardButtondd" type="Button" parent="CharacterButtons"]
 custom_minimum_size = Vector2(30, 30)
 layout_mode = 2
 toggle_mode = true
 button_group = SubResource("ButtonGroup_2s2at")
 
-[node name="Icon" type="TextureRect" parent="CharacterButtons/WizardButton"]
+[node name="Icon" type="TextureRect" parent="CharacterButtons/WizardButtondd"]
 layout_mode = 1
 anchors_preset = 8
 anchor_left = 0.5
@@ -167,13 +167,13 @@ texture = ExtResource("4_20uvy")
 expand_mode = 1
 stretch_mode = 5
 
-[node name="AssassinButton" type="Button" parent="CharacterButtons"]
+[node name="AssassinButtondd" type="Button" parent="CharacterButtons"]
 custom_minimum_size = Vector2(30, 30)
 layout_mode = 2
 toggle_mode = true
 button_group = SubResource("ButtonGroup_2s2at")
 
-[node name="Icon" type="TextureRect" parent="CharacterButtons/AssassinButton"]
+[node name="Icon" type="TextureRect" parent="CharacterButtons/AssassinButtondd"]
 layout_mode = 1
 anchors_preset = 8
 anchor_left = 0.5
@@ -192,5 +192,5 @@ stretch_mode = 5
 
 [connection signal="pressed" from="StartButton" to="." method="_on_start_button_pressed"]
 [connection signal="pressed" from="CharacterButtons/WarriorButton" to="." method="_on_warrior_button_pressed"]
-[connection signal="pressed" from="CharacterButtons/WizardButton" to="." method="_on_wizard_button_pressed"]
-[connection signal="pressed" from="CharacterButtons/AssassinButton" to="." method="_on_assassin_button_pressed"]
+[connection signal="pressed" from="CharacterButtons/WizardButtondd" to="." method="_on_wizard_button_pressed"]
+[connection signal="pressed" from="CharacterButtons/AssassinButtondd" to="." method="_on_assassin_button_pressed"]
