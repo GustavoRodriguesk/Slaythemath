@@ -34,11 +34,3 @@ func _on_start_button_pressed() -> void:
 
 func _on_warrior_button_pressed() -> void:
 	current_character = WARRIOR_STATS
-
-
-func _on_wizard_button_pressed() -> void:
-	current_character = WIZARD_STATS
-
-
-func _on_assassin_button_pressed() -> void:
-	current_character = ASSASSIN_STATS
