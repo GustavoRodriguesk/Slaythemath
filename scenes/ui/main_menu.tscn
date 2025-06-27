@@ -1,13 +1,9 @@
-[gd_scene load_steps=12 format=3 uid="uid://4tj0qise1som"]
+[gd_scene load_steps=8 format=3 uid="uid://4tj0qise1som"]
 
 [ext_resource type="Script" uid="uid://cu7jph4kl1wae" path="res://scenes/ui/main_menu.gd" id="1_bck1p"]
-[ext_resource type="Texture2D" uid="uid://dpfqok8tuy4r7" path="res://art/tile_0084.png" id="1_uaqd2"]
 [ext_resource type="Resource" uid="uid://bd874b0h1q8n1" path="res://scenes/run/run_startup.tres" id="2_4poyw"]
-[ext_resource type="Texture2D" uid="uid://cwf6dyi56tgo" path="res://art/tile_0088.png" id="2_tcnoe"]
-[ext_resource type="Texture2D" uid="uid://cpydvk8mq66o5" path="res://art/tile_0087.png" id="3_vcouc"]
-[ext_resource type="Texture2D" uid="uid://con6y7mc74c5a" path="res://art/tile_0120.png" id="4_snr5i"]
-[ext_resource type="Texture2D" uid="uid://1u3b3hwqd8yh" path="res://art/tile_0110.png" id="5_pintp"]
-[ext_resource type="Texture2D" uid="uid://c24y6l0ivlqp7" path="res://art/tile_0108.png" id="6_6iwyb"]
+[ext_resource type="Texture2D" uid="uid://5i3jf1odture" path="res://art/Frente 1.png" id="3_m1kxf"]
+[ext_resource type="Texture2D" uid="uid://ccb3t0vr3g3u5" path="res://art/Frente 3.png" id="4_x2yvf"]
 
 [sub_resource type="Gradient" id="Gradient_7af3e"]
 colors = PackedColorArray(0.2, 0.117647, 0.0509804, 1, 0.054902, 0, 0.0588235, 1)
@@ -90,36 +86,14 @@ layout_mode = 2
 text = "Sair"
 
 [node name="Wizard" type="Sprite2D" parent="."]
-position = Vector2(20, 105)
+position = Vector2(36, 101)
 scale = Vector2(2, 2)
-texture = ExtResource("1_uaqd2")
-
-[node name="Assassin" type="Sprite2D" parent="."]
-position = Vector2(49, 100)
-scale = Vector2(2, 2)
-texture = ExtResource("2_tcnoe")
-
-[node name="Warrior" type="Sprite2D" parent="."]
-position = Vector2(37, 121)
-scale = Vector2(2, 2)
-texture = ExtResource("3_vcouc")
-
-[node name="Bat" type="Sprite2D" parent="."]
-position = Vector2(204, 105)
-scale = Vector2(2, 2)
-texture = ExtResource("4_snr5i")
-flip_h = true
-
-[node name="Crab" type="Sprite2D" parent="."]
-position = Vector2(220, 125)
-scale = Vector2(2, 2)
-texture = ExtResource("5_pintp")
-flip_h = true
+texture = ExtResource("3_m1kxf")
 
 [node name="Ghost" type="Sprite2D" parent="."]
-position = Vector2(233, 101)
+position = Vector2(225, 96)
 scale = Vector2(2, 2)
-texture = ExtResource("6_6iwyb")
+texture = ExtResource("4_x2yvf")
 flip_h = true
 
 [connection signal="pressed" from="VBoxContainer/Continue" to="." method="_on_continue_pressed"]
