@@ -10,11 +10,11 @@ config_version=5
 
 [application]
 
-config/name="Deck Builder Tutorial"
+config/name="Slay The Math"
 config/tags=PackedStringArray("gamelab")
 run/main_scene="res://scenes/run/run.tscn"
 config/features=PackedStringArray("4.4", "Mobile")
-config/icon="res://icon.png"
+config/icon="uid://b1qn8t5qhjsfg"
 
 [autoload]
 
