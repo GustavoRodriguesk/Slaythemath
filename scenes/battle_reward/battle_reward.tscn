@@ -59,7 +59,7 @@ grow_vertical = 2
 
 [node name="Label" type="Label" parent="VBoxContainer"]
 layout_mode = 2
-text = "Rewards"
+text = "Colete as recompensas"
 label_settings = SubResource("LabelSettings_oksol")
 horizontal_alignment = 1
 
