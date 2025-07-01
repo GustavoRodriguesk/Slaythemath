@@ -13,5 +13,5 @@ target = 1
 cost = 2
 exhausts = true
 icon = ExtResource("1_11nym")
-tooltip_text = "[center]Subtrai [color=\"ff0000\"]%s[/color] de vida e aplica [color=\"ffdf00\"]Exposto[/color].[/center]"
+tooltip_text = "[center]Subtrai [color=\"ff0000\"]%s[/color] de vida e aplica [color=\"ffdf00\"]Vulnerabilidade[/color].[/center]"
 sound = ExtResource("3_0l7j0")

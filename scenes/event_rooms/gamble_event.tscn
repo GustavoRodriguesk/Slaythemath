@@ -49,18 +49,16 @@ vertical_alignment = 1
 unique_name_in_owner = true
 custom_minimum_size = Vector2(110, 20)
 layout_mode = 2
-text = "bet 50g: 50% chance
-to win 100g"
+text = "aposta 50 moedas: 50% de chance de ganhar  100 moedas"
 
 [node name="ThirtyButton" parent="VBoxContainer" instance=ExtResource("2_xqbom")]
 unique_name_in_owner = true
 custom_minimum_size = Vector2(0, 20)
 layout_mode = 2
-text = "bet 50g: 30% chance
-to win 200g"
+text = "aposta  50 moedas: 30%  de chance de vencer 200 moedas "
 
 [node name="SkipButton" parent="VBoxContainer" instance=ExtResource("2_xqbom")]
 unique_name_in_owner = true
 custom_minimum_size = Vector2(0, 15)
 layout_mode = 2
-text = "Skip the bet"
+text = "Pular"
