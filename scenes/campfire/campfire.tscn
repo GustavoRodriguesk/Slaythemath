@@ -184,7 +184,7 @@ unique_name_in_owner = true
 custom_minimum_size = Vector2(40, 14)
 layout_mode = 2
 size_flags_horizontal = 4
-text = "Descançar "
+text = "Curar-se "
 
 [node name="Description" type="Label" parent="UILayer/UI"]
 layout_mode = 2

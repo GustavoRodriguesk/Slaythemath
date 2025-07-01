@@ -40,15 +40,14 @@ grow_vertical = 2
 
 [node name="Label" type="Label" parent="VBoxContainer"]
 layout_mode = 2
-text = "helpful boi"
+text = "Guri gentil"
 horizontal_alignment = 1
 
 [node name="DuplicateLastCardButton" parent="VBoxContainer" instance=ExtResource("1_850a0")]
 unique_name_in_owner = true
 custom_minimum_size = Vector2(100, 20)
 layout_mode = 2
-text = "duplicate last card
-in your deck"
+text = "Duplica ultima carta do seu deck"
 
 [node name="PlusMaxHPButton" parent="VBoxContainer" instance=ExtResource("1_850a0")]
 unique_name_in_owner = true
