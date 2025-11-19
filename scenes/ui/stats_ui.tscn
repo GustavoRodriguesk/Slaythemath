@@ -24,6 +24,7 @@ theme_override_constants/separation = 0
 [node name="BlockImage" type="TextureRect" parent="Block"]
 layout_mode = 2
 texture = ExtResource("2_3xkif")
+expand_mode = 3
 stretch_mode = 5
 
 [node name="BlockLabel" type="Label" parent="Block"]

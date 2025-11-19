@@ -32,8 +32,10 @@ offset_top = 7.0
 offset_bottom = 23.0
 
 [node name="IntentUI" parent="." groups=["intent"] instance=ExtResource("5_xytk4")]
-offset_top = -24.0
-offset_bottom = -10.0
+offset_left = 0.0
+offset_top = -7.0
+offset_right = 40.0
+offset_bottom = 7.0
 
 [node name="StatusHandler" parent="." node_paths=PackedStringArray("status_owner") instance=ExtResource("6_3dhyq")]
 offset_left = -27.0
